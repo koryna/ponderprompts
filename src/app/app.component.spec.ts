@@ -28,4 +28,11 @@ describe('AppComponent', () => {
     const compiled = fixture.nativeElement;
     expect(compiled.querySelector('.content span').textContent).toContain('ponderprompts app is running!');
   });
+
+  it('should render question', () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    fixture.detectChanges();
+    const compiled = fixture.nativeElement;
+    expect(compiled.querySelector('.content .question').textContent).toContain('Wie gut kenne ich mich selbst?');
+  });
 });

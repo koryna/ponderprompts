@@ -1,0 +1,16 @@
+[
+  {
+    "type": "QUESTION",
+    "data": [
+      "Wie gut kenne ich mich selbst?",
+      "Was ist meine größte Schwäche?"
+    ]
+  },
+  {
+    "type": "QUESTION",
+    "data": [
+      "Wie gut kenne ich mich selbst?",
+      "Was ist meine größte Stärke?"
+    ]
+  }
+]
