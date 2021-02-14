@@ -546,5 +546,13 @@
   {
     "type": "QUESTION",
     "content": "What am I wasting my time on?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Who are my favorite people and why?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Who should I call urgently and why?"
   }
 ]
