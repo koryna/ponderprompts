@@ -31,6 +31,7 @@ export class AppComponent implements AfterViewInit {
   }
 
   // TODO: refactor into service
+  // https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Math/math.random
   getRandomArbitrary(min: number, max: number): number {
     return Math.floor(Math.random() * (max - min) + min);
   }
