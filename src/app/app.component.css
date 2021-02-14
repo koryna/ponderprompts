@@ -1,0 +1,30 @@
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  -ms-transform: translateY(-44%);
+  transform: translateY(-44%);
+  width: 99vw;
+  text-align: center;
+}
+
+h1 {
+  padding: 1rem 2.2rem;
+}
+
+.question {
+  display: inline-block;
+  max-width: 60vw;
+  font-size: 3rem;
+}
+
+.d-block {
+  display: block;
+}
+
+.color{
+  position: absolute;
+  bottom: 2rem;
+  left: 2.2rem;
+}

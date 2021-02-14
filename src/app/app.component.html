@@ -1,5 +1,9 @@
-
-    <h1>{{ title }}</h1>
-    <span class="question" *ngFor="let prompt of prompts">
-      {{ prompt.data[0] }}
-    </span>
+<h1>{{ title }}</h1>
+<div class="container">
+  <div class="vertical-center">
+    <div class="question">
+      {{prompt.content }}
+    </div>
+  </div>
+  <div class="color">{{color.backgroundColor}}</div>
+</div>

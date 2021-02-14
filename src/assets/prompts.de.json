@@ -1,16 +1,626 @@
 [
   {
     "type": "QUESTION",
-    "data": [
-      "Wie gut kenne ich mich selbst?",
-      "Was ist meine größte Schwäche?"
-    ]
+    "content": "Was ist meine größte Schwäche?"
   },
   {
     "type": "QUESTION",
-    "data": [
-      "Wie gut kenne ich mich selbst?",
-      "Was ist meine größte Stärke?"
-    ]
+    "content": "Was ist meine größte Stärke?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was kann ich heute tun, das ich wirklich genieße zu tun?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wann habe ich mich das letzte Mal richtig freudig gefühlt?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Womit sollte ich dringend aufhören?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was mache ich einfach nur aus Spaß?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Womit sollte ich dringend anfangen?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Welche Lektion habe ich kürzlich gelernt?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wie fühlt es sich an, Dinge zu tun, die ich tatsächlich mag?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was funktioniert in meinem Leben?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wie möchte ich mich am Ende dieses Tages fühlen?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was beunruhight mich am meisten an mir?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was ist das \"Warum?\" hinter meinem wichtigsten Ziel?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was ist ein Aspekt den ich besonders gern an mir mag?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was ist ein Aspekt den ich besonders gern an mir mag?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Woran bin ich zuletzt gescheitert und was habe ich daraus gelernt?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Welche Ausrede sollte ich aufhören zu verwenden?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was ist momentan mein größtes Hindernis?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was kann ich jetzt tun um mein größtes Hindernis zu überwinden?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wir gut verwende ich meine Stärken und meine Schwächen?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wir gut kombiniere ich meine Stärken und meine Schwächen?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was war mein größter Fehler?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was war mein größte Errungenschaft?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Welcher Mensch hat einen großen Einfluss auf mich und was bewundere ich an diesem Menschen?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Welchen Ratschlag gebe ich, den ich selbst nicht befolge?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Nach welchen Werten lebe ich gerade wirklich und wie definieren sich diese, durch mein Handeln?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Welchen Wert würde ich gern stärker verkörpern und welche kleine Sache kann ich sofort dafür tun?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Haben die Menschen die mich beeinflussen, die gleichen Werte wie ich?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wem habe ich heute unrecht getan und womit?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Welche Aktivität interessiert mich, die ich noch nicht ausprobiert habe und warum habe ich sie noch nicht ausprobiert?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Worin bin ich wirklich schlecht, wieviel Anteil hat es an meiner Zeit und wie kann ich ihn senken?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Bin ich extrovertiert, introvertiert oder beides und warum?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was interessiert mich brennend, über das ich sehr wenig bis gar nichts weiß?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Worin bin ich wirklich gut und wieviel Anteil hat es an meiner Zeit und warum?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Liebe ich mich jetzt gerade? Wenn ja, warum? Wenn nein, Warum?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wenn ich nur noch ein Jahr zu leben hätte, was würde ich tun?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wenn ich nur noch einen Monat zu leben hätte, was würde ich tun?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wenn ich nur noch eine Woche zu leben hätte, was würde ich tun?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wenn ich nur noch einen Tag zu leben hätte, was würde ich tun?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wenn ich nur noch eine Stunde zu leben hätte, was würde ich tun?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wenn ich nur noch eine Minute zu leben hätte, was würde ich tun?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was würde ich heute machen, wenn es kein Morgen gäbe?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Welchen Rat hätte ich mir selbst vor drei Jahren gegeben?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was habe ich heute getan und wie relevant ist es in einem Monat?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was habe ich heute getan und wie relevant ist es in einer Woche?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was habe ich heute getan und wie relevant ist es in einem Jahr?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was würde ich tun, wenn zu versagen unmöglich wäre?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wie gut nutze ich meine Zeit? Wie bringt sie mich meinen Zielen näher?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was würde ich tun, wenn Geld keine Rolle spielen würde?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Ich bekomme 10 Millionen Euro, was tue ich?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Habe ich in meinem Zuhause die optimale Umgebung für mich erschaffen?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was ist meine Mission?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wann fühlte ich mich zuletzt richtig lebendig und warum?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was treibt mich an und wie kann ich davon mehr in meinen Alltag integrieren?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Mit wem vergleiche ich mich oft und warum?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wann habe ich zuletzt was Neues ausprobiert, was und wie war es?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was ist das sensibelste, dass ich jemals habe jemanden sagen hören?"
+  },
+  {
+    "type": "PROMPT",
+    "content": "Ich fühle mich aufgeregt, wenn..."
+  },
+  {
+    "type": "QUESTION",
+    "content": "Stelle ich mir selbst genug fragen oder bleibe ich lieber bei dem was ich weiß? Was habe ich Angst herauszufinden?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wen liebe ich und was tue ich deshalb?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was glaube ich, was viele andere nicht glauben und warum ist es mir wichtig?"
+  },
+  {
+    "type": "PROMPT",
+    "content": "Mir geht es gut, wenn..."
+  },
+  {
+    "type": "QUESTION",
+    "content": "Ist Weinen eine Schwäche oder eine Stärke und warum?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was würde ich anders machen, wenn niemand mich dafür verurteilen würde?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Feiere ich was ich habe oder tue und wenn ja, wie? Und wenn nein, warum nicht?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was ist der Unterschied zwischen leben und sein?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Ist es möglich zu lügen ohne ein Wort zu sagen?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was ist in letzter Zeit passiert, dass ich auf keinen Fall vergessen möchte und warum nicht?"
+  },
+  {
+    "type": "PROMPT",
+    "content": "Ich verliere jegliches Zeitgefühl, wenn ich..."
+  },
+  {
+    "type": "QUESTION",
+    "content": "Ich verliere jegliches Zeitgefühl, wenn ich..."
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wenn ich irgendetwas lehren müsste, was wäre es und warum?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Woran halte ich fest, was ich besser loslassen sollte?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wenn ich 90 Jahre alt bin, was wird dann das Wichtigste für mich sein?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was lässt mich Lächeln und wie kann ich mehr davon in mein Leben integrieren?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wenn alles gesagt und getan ist, werde ich dann mehr getan haben, als ich gesagt habe?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was haben wir alle gemeinsam?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was ist schlimmer: Versagen oder es nie versucht haben und warum?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was mach ich anders als alle anderen und warum?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was ist das wünschenswerteste Merkmal, dass eine Person besitzen kann und warum?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was will ich am allermeisten und warum?"
+  },
+  {
+    "type": "PROMPT",
+    "content": "Könnte ich eine Sache an der Welt ändern, dann wäre das..."
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wie würde ich mein Leben mit nur 6 Worten beschreiben?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wenn ich aus meinen Fehlern lerne, warum habe ich soviel Angst welche zu machen und es zuzugeben?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Welcher Moment in meinem Leben definiert mich am meisten und warum?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was ist die einfachste Wahrheit, die ich in Worten ausdrücken kann?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was gibt meinem Leben Bedeutung und warum?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Warum bin ich ich?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was bedeutet Freiheit für mich?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was bedeutet Frieden für mich?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wann fühle ich mich am meisten wie ich selbst?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was ist meine größte Herausforderung?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wie definiere ich Erfolg?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was hat mich zuletzt tief berührt?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was hat mich zuletzt tief inspiriert?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was schulde ich mir?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Warum bin ich wichtig?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was macht einen Menschen schön?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was macht mich schön?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was macht mich stolz?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wofür habe ich hart gearbeitet und jede Sekunde davon geliebt?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Ist es besser jemanden geliebt und verloren zu haben oder niemals geliebt zu haben?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wenn ich all meinen weltlichen Besitz entsorgen müsste, mit Ausname dessen was ich einen Tagesrrucksack passt, was täte ich in den Rucksack und warum?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wann sagt Stille mehr als tausend Worte?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was fällt mir zuerst ein, wenn ich an Erfolg denke?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wann habe ich das letzte Mal jemandem geholfen?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wie verfolge ich jetzt gerade meine Träume?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was ist der nächste große Schritt den ich machen muss?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Worauf freue ich mich?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wenn ich nur ein Foto von meinem Leben machen könnte, was würde es zeigen?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was macht heute lebenswert?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was habe ich zuletzt gelernt, was mein Leben verändert hat?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was sind die Komponenten eines glücklichen Lebens?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was sind meine Prioritäten und wie handle ich danach?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was sehe ich, wenn ich in meine Zukunft blicke?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was ist das netteste, das je jemand für mich gemacht hat und ich für jemanden?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wie fühlt sich Liebe an?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was würde ich niemals tun?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Welche Bücher haben den größten Einfluss auf mein Leben?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Zu welchen drei Fragen hätte ich gern antworten und wer trägt die Verantwortung für die Antworten?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was ist die größte Lüge von der du lange dachtest, sie sei wahr?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was ist das Beste daran, ich zu sein?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was ist meine glücklichste Erinnerung?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was ist meine traurigste Erinnerung?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wenn ich sofort eine Sache an mir ändern könnte, welche wäre es und warum?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wenn ich drei Wünsche frei hätte, was würde ich mir wünschen und warum?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was ist die beste Entscheidung die ich je getroffen habe?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Worauf wartest du?"
+  },
+  {
+    "type": "PROMPT",
+    "content": "Wenn ich betrachte was ich heute täglich tue und was meine Gewohnheiten sind, dann bin ich in 5 Jahren..."
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wer ist immer für mich da (gewesen) und wann und wie habe ich zuletzt meinen Dank dafür ausgedrückt?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Worüber denke ich nach, wenn ich im Bett liege und welche Relevanz hat es und warum?"
+  },
+  {
+    "type": "PROMPT",
+    "content": "In meiner Freizeit mache ich überlicherweise..."
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was macht mich komisch?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was ich Gestern nochmal erleben würde, was würde ich anders machen?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Welche Notlügen verwende ich häufig und warum?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was war die größte Veränderung in meinem Leben im letzten Jahr?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was verstehe ich heute über mich und mein Leben, was ich vor einem Jahr noch nicht verstanden habe?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was hat mich das Leben Gestern gelehrt?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was habe ich getan, worauf ich nicht stolz bin?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wie sieht ein perfekter Tag für mich aus und warum?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was ist der beste Ratschlag den ich je bekommen habe und warum?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Welche positiven Veränderungen sind kürzlich in mein Leben getreten?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was bereue ich am allermeisten und was tue ich, damit es nie wieder vorkommt?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was fehlt in meinem Leben und warum?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wem würdest du gern was vergeben und was hält dich davon ab?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wovon möchte ich mehr in meinem Leben?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wovon möchte ich weniger in meinem Leben?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wie sabotiere ich mich selbst und was ist mein Plan um damit aufzuhören?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was möchte ich noch tun, woran ich mich immer erinnern will?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Womit verbringe ich meine Zeit wirklich, wieviel davon ist noch nicht an meinen Träumen ausgerichtet und was tue ich als nächstes damit es mehr wird?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was ist mein Lieblingsgeräusch und warum?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Welche Fragen stelle ich mir oft?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was ist mein Lieblingszitat und warum?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was hättest du gern viel früher getan und was wirst du noch tun, von dem du dir wünschen wirst, du hättest es früher getan?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was hält dich davon ab, jetzt den nächsten Schritt zu machen?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was macht einen Menschen zu einem Helden?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wie würdest ich meine Zukunft in 3 Worten beschreiben?"
   }
 ]
