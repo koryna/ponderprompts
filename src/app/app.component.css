@@ -23,8 +23,17 @@ h1 {
   display: block;
 }
 
-.color{
+.color {
   position: absolute;
   bottom: 2rem;
   left: 2.2rem;
+}
+
+.next-button a {
+  cursor: pointer;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  bottom: 2rem;
+  right: 2.2rem;
 }

@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, ElementRef } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
 import prompts from '../assets/prompts.de.json';
 import colors from '../assets/colors.json';
 
