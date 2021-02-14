@@ -1,14 +1,13 @@
 <h1>{{ title }}</h1>
-
 <div class="container">
   <div class="vertical-center">
-    <div class="question">
+    <div class="prompt">
       {{prompt.content}}
     </div>
   </div>
   <br/>
   <div class="next-button">
-    <a onClick="window.location.reload();">Ich möchte lieber über etwas anderes nachdenken.</a>
+    <a onClick="window.location.reload();">{{reload}}</a>
   </div>
   <br/>
   <div class="color">{{color.backgroundColor}}</div>

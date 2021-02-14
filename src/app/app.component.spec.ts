@@ -42,7 +42,7 @@ describe('AppComponent', () => {
     };
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.question').textContent).toContain('Was ist das sensibelste, dass ich jemals habe jemanden sagen hören?');
+    expect(compiled.querySelector('.prompt').textContent).toContain('Was ist das sensibelste, dass ich jemals habe jemanden sagen hören?');
   });
 
   it('should shuffle array', () => {

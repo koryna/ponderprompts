@@ -1,5 +1,6 @@
-import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
-import prompts from '../assets/prompts.de.json';
+import { AfterViewInit, Component, ElementRef } from '@angular/core';
+import de_prompts from '../assets/prompts.de.json';
+import en_prompts from '../assets/prompts.en.json';
 import colors from '../assets/colors.json';
 
 export interface Color {
@@ -19,12 +20,12 @@ export interface Prompt {
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements AfterViewInit {
-  prompts: Prompt[] = this.shuffle(prompts);
+  locale = 'de';
+  reload = this.locale === 'de' ? 'Ich möchte lieber über etwas anderes nachdenken.' : 'I\'d rather ponder about something else.';
+  prompts: Prompt[] = this.locale === 'de' ? this.shuffle(de_prompts) : this.shuffle(en_prompts);
   colors: Color[] = this.shuffle(colors);
-
-  prompt = prompts[this.getRandomArbitrary(0, prompts.length)];
+  prompt = this.prompts[this.getRandomArbitrary(0, this.prompts.length)];
   color = colors[this.getRandomArbitrary(0, colors.length)];
-
   title = 'ponderprompts';
 
   constructor(private elementRef: ElementRef) {
@@ -54,4 +55,5 @@ export class AppComponent implements AfterViewInit {
     this.elementRef.nativeElement.ownerDocument.body.style.backgroundColor = this.color.backgroundColor;
     this.elementRef.nativeElement.ownerDocument.body.style.color = this.color.color;
   }
+
 }
