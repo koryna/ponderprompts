@@ -1,50 +1,85 @@
 [
-  {
-    "backgroundColor": "#E0DDCF",
-    "color": "#333"
-  },
-  {
-    "backgroundColor": "#474448",
-    "color": "#fff"
-  },
-  {
-    "backgroundColor": "#2D232E",
-    "color": "#F1F0EA"
-  },
-  {
-    "backgroundColor": "#41292C",
-    "color": "#F1F0EA"
-  },
-  {
-    "backgroundColor": "#2F2D2E",
-    "color": "#F1F0EA"
-  },
-  {
-    "backgroundColor": "#D7BBA8",
-    "color": "#2F2D2E"
-  },
-  {
-    "backgroundColor": "#BBB09B",
-    "color": "#2F2D2E"
-  },
-  {
-    "backgroundColor": "#FEEFDD",
-    "color": "#2F2D2E"
-  },
-  {
-    "backgroundColor": "#F3D8C7",
-    "color": "#2F2D2E"
-  },
-  {
-    "backgroundColor": "#FAAA8D",
-    "color": "#2F2D2E"
-  },
-  {
-    "backgroundColor": "#FE6D73",
-    "color": "#F1F0EA"
-  },
-  {
-    "backgroundColor": "#D0B8AC",
-    "color": "#2F2D2E"
-  }
+  "#474448",
+  "#2D232E",
+  "#41292C",
+  "#2F2D2E",
+  "#D7BBA8",
+  "#BBB09B",
+  "#FEEFDD",
+  "#F3D8C7",
+  "#FAAA8D",
+  "#FE6D73",
+  "#D0B8AC",
+  "#17C3B2",
+  "#FFCB77",
+  "#FF8A5B",
+  "#EA526F",
+  "#FCEADE",
+  "#25CED1",
+  "#FF4000",
+  "#201E1F",
+  "#FEEFDD",
+  "#50B2C0",
+  "#143642",
+  "#0F8B8D",
+  "#EC9A29",
+  "#A8201A",
+  "#453F3C",
+  "#797270",
+  "#A7A7A9",
+  "#2A3D45",
+  "#7A6C5D",
+  "#DDC9B4",
+  "#BCAC9B",
+  "#C17C74",
+  "#76B041",
+  "#FFC914",
+  "#17BEBB",
+  "#E4572E",
+  "#FF9F1C",
+  "#FFBF69",
+  "#050517",
+  "#EFC88B",
+  "#F4E3B2",
+  "#A69CAC",
+  "#474973",
+  "#161B33",
+  "#0D0C1D",
+  "#FEE9E1",
+  "#FAD4C0",
+  "#64B6AC",
+  "#534B52",
+  "#3DCCC7",
+  "#9CEAEF",
+  "#FEF9EF",
+  "#285943",
+  "#8CD790",
+  "#9E9885",
+  "#BEA8AA",
+  "#45462A",
+  "#DC851F",
+  "#FFA737",
+  "#343330",
+  "#73AB84",
+  "#79C7C5",
+  "#99D19C",
+  "#000501",
+  "#869D7A",
+  "#E39695",
+  "#E4B1AB",
+  "#DF7373",
+  "#DA5552",
+  "#CC444B",
+  "#6C969D",
+  "#99D5C9",
+  "#2D0320",
+  "#392B58",
+  "#91ADC2",
+  "#231B1B",
+  "#727D71",
+  "#FB8B24",
+  "#395C6B",
+  "#EE7B30",
+  "#32936F",
+  "#387D7A"
 ]

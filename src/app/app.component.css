@@ -81,3 +81,7 @@ a, a:focus, a:visited, a:hover{
     padding: 0.5rem 1rem;
   }
 }
+
+sup {
+  font-size: 1rem;
+}

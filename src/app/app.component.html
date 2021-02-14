@@ -1,4 +1,4 @@
-<h1>{{ title }}</h1>
+<h1>{{ title }} <sup>{{prompts.length}}</sup></h1>
 <div class="locale"> <a href="https://ponderprompts.{{url}}" target="_self">{{switch}}</a></div>
 <div class="container">
   <div class="vertical-center">
@@ -8,8 +8,8 @@
   </div>
   <br/>
   <div class="next-button">
-    <a onClick="window.location.reload();">{{reload}}</a>
+    <a (click)="giveMeAnotherPrompt()">{{reload}}</a>
   </div>
   <br/>
-  <div class="color">{{color.backgroundColor}}</div>
+  <div class="color">{{color}}</div>
 </div>

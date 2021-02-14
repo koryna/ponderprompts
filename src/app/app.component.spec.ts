@@ -32,10 +32,7 @@ describe('AppComponent', () => {
   it('should render question', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    app.color = {
-      backgroundColor: '#D0B8AC',
-      color: '#2F2D2E'
-    };
+    app.color =  '#2F2D2E';
     app.prompt = {
       type: 'QUESTION',
       content: 'Was ist das sensibelste, dass ich jemals habe jemanden sagen hören?'
