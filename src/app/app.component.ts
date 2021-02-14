@@ -20,8 +20,10 @@ export interface Prompt {
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements AfterViewInit {
-  locale = 'de';
+  locale = 'en';
   reload = this.locale === 'de' ? 'Ich möchte lieber über etwas anderes nachdenken.' : 'I\'d rather ponder about something else.';
+  switch = this.locale === 'de' ? 'In english please?' : 'Auf Deutsch bitte?';
+  url = this.locale === 'de' ? 'com' : 'de';
   prompts: Prompt[] = this.locale === 'de' ? this.shuffle(de_prompts) : this.shuffle(en_prompts);
   colors: Color[] = this.shuffle(colors);
   prompt = this.prompts[this.getRandomArbitrary(0, this.prompts.length)];
