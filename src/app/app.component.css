@@ -1,39 +1,65 @@
 
-.vertical-center {
-  margin: 0;
-  position: absolute;
-  top: 40%;
-  -ms-transform: translateY(-44%);
-  transform: translateY(-44%);
-  width: 99vw;
-  text-align: center;
-}
-
 h1 {
-  padding: 1rem 2.2rem;
+  margin-top: 0;
+  padding: 0.5rem 1rem;
 }
 
 .question {
   display: inline-block;
-  max-width: 60vw;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
-.d-block {
-  display: block;
+.vertical-center {
+  margin: 3rem auto;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.next-button {
+  margin: 0 3rem;
+  text-align: center;
 }
 
 .color {
-  position: absolute;
-  bottom: 2rem;
-  left: 2.2rem;
+  text-align: center;
 }
 
-.next-button a {
-  cursor: pointer;
-  margin-top: 1rem;
-  padding: 0.5rem 1rem;
-  position: absolute;
-  bottom: 2rem;
-  right: 2.2rem;
+@media only screen and (min-width: 1080px) {
+  .vertical-center {
+    margin: 0;
+
+    padding: 0;
+    position: absolute;
+    top: 40%;
+    -ms-transform: translateY(-44%);
+    transform: translateY(-44%);
+    width: 99vw;
+    text-align: center;
+
+  }
+
+  h1 {
+    padding: 1rem 2.2rem;
+  }
+
+  .question {
+    max-width: 60vw;
+    font-size: 3rem;
+  }
+
+  .color {
+    position: absolute;
+    bottom: 2rem;
+    left: 2.2rem;
+  }
+
+  .next-button a {
+    cursor: pointer;
+    margin: 0;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    bottom: 2rem;
+    right: 2.2rem;
+  }
 }
