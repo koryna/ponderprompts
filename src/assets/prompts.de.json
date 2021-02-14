@@ -465,7 +465,7 @@
   },
   {
     "type": "QUESTION",
-    "content": "Was ist die größte Lüge von der du lange dachtest, sie sei wahr?"
+    "content": "Was ist die größte Lüge von der ich lange dachte, sie sei wahr?"
   },
   {
     "type": "QUESTION",
@@ -493,7 +493,7 @@
   },
   {
     "type": "QUESTION",
-    "content": "Worauf wartest du?"
+    "content": "Worauf warte ich?"
   },
   {
     "type": "PROMPT",
@@ -561,7 +561,7 @@
   },
   {
     "type": "QUESTION",
-    "content": "Wem würdest du gern was vergeben und was hält dich davon ab?"
+    "content": "Wem würdest ich gern etwas vergeben und was hält dich davon ab?"
   },
   {
     "type": "QUESTION",
