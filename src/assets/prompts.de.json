@@ -117,10 +117,6 @@
   },
   {
     "type": "QUESTION",
-    "content": "Welche Aktivität interessiert mich, die ich noch nicht ausprobiert habe und warum habe ich sie noch nicht ausprobiert?"
-  },
-  {
-    "type": "QUESTION",
     "content": "Worin bin ich wirklich schlecht, wieviel Anteil hat es an meiner Zeit und wie kann ich ihn senken?"
   },
   {
@@ -230,10 +226,6 @@
   {
     "type": "PROMPT",
     "content": "Ich fühle mich aufgeregt, wenn..."
-  },
-  {
-    "type": "QUESTION",
-    "content": "Stelle ich mir selbst genug fragen oder bleibe ich lieber bei dem was ich weiß? Was habe ich Angst herauszufinden?"
   },
   {
     "type": "QUESTION",
@@ -402,10 +394,6 @@
   {
     "type": "QUESTION",
     "content": "Ist es besser jemanden geliebt und verloren zu haben oder niemals geliebt zu haben?"
-  },
-  {
-    "type": "QUESTION",
-    "content": "Wenn ich all meinen weltlichen Besitz entsorgen müsste, mit Ausname dessen was ich einen Tagesrrucksack passt, was täte ich in den Rucksack und warum?"
   },
   {
     "type": "QUESTION",
@@ -593,10 +581,6 @@
   },
   {
     "type": "QUESTION",
-    "content": "Womit verbringe ich meine Zeit wirklich, wieviel davon ist noch nicht an meinen Träumen ausgerichtet und was tue ich als nächstes damit es mehr wird?"
-  },
-  {
-    "type": "QUESTION",
     "content": "Was ist mein Lieblingsgeräusch und warum?"
   },
   {
@@ -609,7 +593,15 @@
   },
   {
     "type": "QUESTION",
-    "content": "Was hättest du gern viel früher getan und was wirst du noch tun, von dem du dir wünschen wirst, du hättest es früher getan?"
+    "content": "Was hättest ich gern schon viel früher getan und warum?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wovon werde ich in Zukunft wünschen ich hätte es viel früher getan?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Ich muss sofort alles zurücklassen und habe nur einen Tagesrucksack. Was pack ich ein und warum?"
   },
   {
     "type": "QUESTION",
@@ -622,5 +614,9 @@
   {
     "type": "QUESTION",
     "content": "Wie würdest ich meine Zukunft in 3 Worten beschreiben?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Womit verschwende ich meine Zeit?"
   }
 ]

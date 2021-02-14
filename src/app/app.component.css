@@ -16,18 +16,19 @@ h1 {
 }
 
 .next-button {
+  position: fixed;
+  bottom: 30px;
   margin: 0 3rem;
   text-align: center;
 }
 
 .color {
-  text-align: center;
+  display: none;
 }
 
 @media only screen and (min-width: 1080px) {
   .vertical-center {
     margin: 0;
-
     padding: 0;
     position: absolute;
     top: 40%;
@@ -35,7 +36,6 @@ h1 {
     transform: translateY(-44%);
     width: 99vw;
     text-align: center;
-
   }
 
   h1 {
