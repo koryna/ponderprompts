@@ -5,13 +5,17 @@ h1 {
 
 .prompt {
   display: inline-block;
-  font-size: 2rem;
+  font-size: 4rem;
+  padding: 0 3rem;
 }
 
 .vertical-center {
-  margin: 3rem auto;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 35%;
+  width: 99vw;
   text-align: center;
-  padding: 0 1rem;
 }
 
 .next-button {
@@ -40,8 +44,6 @@ a, a:focus, a:visited, a:hover{
     padding: 0;
     position: absolute;
     top: 40%;
-    -ms-transform: translateY(-44%);
-    transform: translateY(-44%);
     width: 99vw;
     text-align: center;
   }

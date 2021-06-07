@@ -622,5 +622,77 @@
   {
     "type": "QUESTION",
     "content": "Mit wem sollte ich dringend Mal telefonieren und warum?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Womit verschwende ich die meiste Zeit und was würde ich lieber stattdessen tun?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was ist für mich selbstverständlich, was es in Wirklichkeit nicht ist?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wer bin ich wirklich?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wovor habe ich am meisten Angst?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Habe ich in letzter Zeit irgendetwas getan, dass es wert ist erinnert zu werden?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wie soll ich leben, wenn ich weiß, dass ich sterben werde?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wenn ich versuche zu scheitern, und es gelingt, was von beiden habe ich dann getan?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Ist es wirklich wichtig, was andere über mich denken?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Inwieweit habe ich den Verlauf meines Lebens tatsächlich kontrolliert?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Welcher kleine Akt der Freundlichkeit wurde mir einmal gezeigt, den ich nie vergessen werde?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Nehme ich eine gesunde Perspektive ein?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Lebe ich ehrlich zu mir selbst?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Wenn nicht jetzt, wann dann?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Was kann ich aus meinen größten Fehlern lernen?"
+  },
+  {
+    "type": "PROMPT",
+    "content": "Wenn mein Körper sprechen könnte, würde er sagen..."
+  },
+  {
+    "type": "PROMPT",
+    "content": "Ich wünschte wirklich, andere wüssten über mich..."
+  },
+  {
+    "type": "PROMPT",
+    "content": "Wenn ich Schmerzen habe (körperlich oder emotional), ist das Netteste, was ich für mich tun kann..."
+  },
+  {
+    "type": "PROMPT",
+    "content": "Die Worte, nach denen ich gerne leben würde, sind..."
   }
 ]

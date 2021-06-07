@@ -3,11 +3,6 @@ import de_prompts from '../assets/prompts.de.json';
 import en_prompts from '../assets/prompts.en.json';
 import colors from '../assets/colors.json';
 
-export interface Color {
-  backgroundColor: string;
-  color: string;
-}
-
 export interface Prompt {
   type: string;
   title?: string;
@@ -20,15 +15,12 @@ export interface Prompt {
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  // reload = 'Ich möchte lieber über etwas anderes nachdenken.';
-  // switch = 'In english please?';
-  // url = 'com';
-  // prompts: Prompt[] = this.shuffle(de_prompts);
+  lang = 'en';
+  reload = this.lang === 'de' ? 'Ich möchte lieber über etwas anderes nachdenken.' : 'I\'d rather ponder about something else.';
+  switch = this.lang === 'de' ? 'In english please?' : 'Auf Deutsch bitte?';
+  url = this.lang === 'de' ? 'com' : 'de';
+  prompts: Prompt[] = this.shuffle(this.lang === 'de' ? de_prompts : en_prompts);
 
-  reload = 'I\'d rather ponder about something else.';
-  switch = 'Auf Deutsch bitte?';
-  url = 'de';
-  prompts: Prompt[] = this.shuffle(en_prompts);
 
   colors: string[] = this.shuffle(colors);
   prompt = this.prompts[this.getRandomArbitrary(0, this.prompts.length)];

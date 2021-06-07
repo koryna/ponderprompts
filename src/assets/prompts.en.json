@@ -554,5 +554,85 @@
   {
     "type": "QUESTION",
     "content": "Who should I call urgently and why?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "What do I waste most of my time on and what would I rather do instead?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "What am I taking for granted that is not in reality?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Who am I really?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "What am I really scared of?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Have I done anything lately worth remembering?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "How shall I live, knowing I will die?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "What do I need to change about myself and why?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "If I try to fail, and succeed, which have I done?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Does it really matter what others think about me?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "To what degree have I actually controlled the course my life has taken?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "What small act of kindness was I once shown that I will never forget?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Am I employing a healthy perspective?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "Am I living true to myself?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "If not now, then when?"
+  },
+  {
+    "type": "QUESTION",
+    "content": "What can i learn from my biggest mistakes?"
+  },
+  {
+    "type": "PROMPT",
+    "content": "If my body could talk, it would say..."
+  },
+  {
+    "type": "PROMPT",
+    "content": "Name what is enough for you."
+  },
+  {
+    "type": "PROMPT",
+    "content": "I really wish others knew this about me..."
+  },
+  {
+    "type": "PROMPT",
+    "content": "When I’m in pain (physical or emotional) the kindest thing I can do for myself is..."
+  },
+  {
+    "type": "PROMPT",
+    "content": "The words I’d like to live by are..."
   }
 ]
