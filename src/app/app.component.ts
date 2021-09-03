@@ -15,7 +15,7 @@ export interface Prompt {
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  lang = 'en';
+  lang = 'de';
   reload = this.lang === 'de' ? 'Ich möchte lieber über etwas anderes nachdenken.' : 'I\'d rather ponder about something else.';
   switch = this.lang === 'de' ? 'In english please?' : 'Auf Deutsch bitte?';
   url = this.lang === 'de' ? 'com' : 'de';
