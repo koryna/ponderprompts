@@ -2,14 +2,10 @@
 <div class="locale"> <a href="https://ponderprompts.{{url}}" target="_self">{{switch}}</a></div>
 <div class="container">
   <div class="container-item">
-    <div class="prompt">
-      {{prompt.content}}
-    </div>
+    <div class="prompt" [innerHTML]="prompt.content"></div>
   </div>
-  <br/>
-  <div class="next-button">
-    <a (click)="giveMeAnotherPrompt()">{{reload}}</a>
-  </div>
-  <br/>
-  <div class="color">{{color}}</div>
 </div>
+<div class="next-button">
+  <a (click)="giveMeAnotherPrompt()">{{reload}}</a>
+</div>
+<div class="color">{{color}}</div>
