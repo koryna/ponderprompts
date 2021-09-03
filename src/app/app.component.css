@@ -72,6 +72,7 @@ a, a:focus, a:visited, a:hover{
     bottom: 2rem;
     left: 2.2rem;
     display: inline;
+    max-width: 80%;
   }
 
   .locale {
