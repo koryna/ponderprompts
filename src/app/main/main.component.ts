@@ -22,20 +22,11 @@ export class MainComponent implements OnInit {
   @ViewChild('canvas') canvas: ElementRef;
   @ViewChild('downloadLink') downloadLink: ElementRef;
 
-  screenHeight: number;
-  screenWidth: number;
-  @HostListener('window:resize', ['$event'])
-  onResize() {
-     this.screenHeight = window.innerHeight;
-     this.screenWidth = window.innerWidth;
-  }
-
-  lang = 'en';
+  lang = 'de';
   reload = this.lang === 'de' ? 'Ich möchte lieber über etwas anderes nachdenken.' : 'I\'d rather ponder about something else.';
   switch = this.lang === 'de' ? 'In english please?' : 'Auf Deutsch bitte?';
   url = this.lang === 'de' ? 'com' : 'de';
   prompts: Prompt[] = this.shuffle(this.lang === 'de' ? de_prompts : en_prompts);
-
 
   colors: string[] = this.shuffle(colors);
   prompt = this.prompts[this.getRandomArbitrary(0, this.prompts.length)];
@@ -43,7 +34,9 @@ export class MainComponent implements OnInit {
   title = 'ponderprompts';
 
   
-  constructor(private elementRef: ElementRef,  private activatedRoute: ActivatedRoute, private changeDetectorRef: ChangeDetectorRef) {
+  constructor(private elementRef: ElementRef,  
+              private activatedRoute: ActivatedRoute, 
+              private changeDetectorRef: ChangeDetectorRef) {
     this.generateColors();
   }
 
@@ -96,7 +89,7 @@ export class MainComponent implements OnInit {
     this.elementRef.nativeElement.ownerDocument.body.style.color = (rgb.r * 0.299 + rgb.g * 0.587 + rgb.b * 0.114) > 186 ? '#343330' : '#FEF9EF';
   }
 
-  useHtml2Canvas(props: {width?: number, height?: number, x?: number, y?: number}){
+  useHtml2Canvas(props: {width?: number, height?: number, x?: number, y?: number}): void {
     html2canvas(this.screen.nativeElement, props).then((canvas: { toDataURL: (arg0?: string | undefined) => any; }) => {
       this.canvas.nativeElement.src = canvas.toDataURL();
       this.downloadLink.nativeElement.href = canvas.toDataURL('image/png');
@@ -105,14 +98,14 @@ export class MainComponent implements OnInit {
     });   
   }
 
-  setupScreen(props?: {width?: number, height?: number}){
+  setupScreen(props?: {width?: number, height?: number}): void {
     this.screen.nativeElement.style.height = props?.height? props.height+'px' : 'auto';
     this.screen.nativeElement.style.width = props?.width?props.width+'px' : 'auto';
     this.screen.nativeElement.style.backgroundColor = this.color;
     this.changeDetectorRef.detectChanges();
   }
 
-  downloadImage(){
+  downloadImage(): void {
     const props = window.screen.width > 1024 ? { width: 1280, height: 720 } : { width: 1080, height: 2340 };
     this.setupScreen(props);
     this.useHtml2Canvas(props);
