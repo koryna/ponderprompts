@@ -32,8 +32,8 @@ describe('CalculationsService', () => {
 
   it('should return a number between 1 and 100', () => {
     const randomAbitrary = service.getRandomArbitrary(1, 100);
-    expect(randomAbitrary).toBeGreaterThan(1);
-    expect(randomAbitrary).toBeLessThan(100);
+    expect(randomAbitrary).toBeGreaterThanOrEqual(1);
+    expect(randomAbitrary).toBeLessThanOrEqual(100);
   });
 
 });

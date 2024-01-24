@@ -37,17 +37,13 @@ describe('MainComponent', () => {
     expect(compiled.querySelector('h1').textContent).toContain('ponderprompts');
   });
 
-  it('should render question', () => {
+  it('should update color and prompt', () => {
     const fixture = TestBed.createComponent(MainComponent);
-    const app = fixture.componentInstance;
-    app.color =  '#2F2D2E';
-    app.prompt = {
-      type: 'QUESTION',
-      content: 'Was ist das sensibelste, dass ich jemals habe jemanden sagen hören?'
-    };
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.prompt').textContent).toContain('Was ist das sensibelste, dass ich jemals habe jemanden sagen hören?');
+    const color = fixture.componentInstance.color;
+    const prompt = fixture.componentInstance.prompt;
+    fixture.componentInstance.giveMeAnotherPromptAndRandomizeColor();
+    expect(fixture.componentInstance.color).not.toEqual(color);
+    expect(fixture.componentInstance.prompt).not.toEqual(prompt);
   });
 
   it('should shuffle array', () => {

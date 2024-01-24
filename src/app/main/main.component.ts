@@ -9,6 +9,18 @@ import { CalculationsService } from "@app/services/calculations.service";
 import { Prompt } from "@app/interfaces/prompt.interface";
 import { ScreenProps } from "@app/interfaces/screen-props.interface";
 
+enum SupportedLanguages {
+  en = 'en',
+  de = 'de'
+}
+
+interface Props {
+  reload: string;
+  switch: string;
+  url: string;
+  prompts: Prompt[];
+}
+
 @Component({
   selector: 'app-main',
   templateUrl: './main.component.html',
@@ -21,17 +33,29 @@ export class MainComponent implements OnInit {
 
   private service = inject(CalculationsService);
 
-  lang = 'de';
-  langIsGerman = this.lang === 'de';
-  reload = this.langIsGerman ? 'Ich möchte lieber über etwas anderes nachdenken.' : 'I\'d rather ponder about something else.';
-  switch = this.langIsGerman ? 'In english please?' : 'Auf Deutsch bitte?';
-  url = this.langIsGerman ? 'com' : 'de';
-  prompts: Prompt[] = this.shuffle(this.langIsGerman ? de_prompts : en_prompts);
+  lang = SupportedLanguages.de;
+  de_props: Props = {
+    reload: 'Ich möchte lieber über etwas anderes nachdenken.',
+    switch: 'In english please?',
+    url: 'de',
+    prompts: de_prompts
+  };
+  en_props: Props = {
+    reload: 'I\'d rather ponder something else.',
+    switch: 'Auf Deutsch bitte?',
+    url: 'com',
+    prompts: en_prompts
+  };
+  langDependentProps = {
+    [SupportedLanguages.de]: this.de_props,
+    [SupportedLanguages.en]: this.en_props
+  };
+
+  props = this.langDependentProps[this.lang];
   colors: string[] = this.shuffle(colors);
-  prompt = this.prompts[this.service.getRandomArbitrary(0, this.prompts.length)];
+  prompt = this.getRandomPrompt(this.props);
   color = this.colors[this.service.getRandomArbitrary(0, this.colors.length)];
   title = 'ponderprompts';
-
 
   constructor(private elementRef: ElementRef,
               private activatedRoute: ActivatedRoute,
@@ -49,7 +73,7 @@ export class MainComponent implements OnInit {
     });
   }
 
-  shuffle(arr: (Prompt|string|number)[]): any[] {
+  shuffle(arr: (Prompt | string | number)[]): any[] {
     let currentIndex = arr.length, temporaryValue, randomIndex;
     while (0 !== currentIndex) {
       randomIndex = Math.floor(Math.random() * currentIndex);
@@ -71,8 +95,8 @@ export class MainComponent implements OnInit {
     this.elementRef.nativeElement.ownerDocument.body.style.color = this.service.determineTextColor(this.color);
   }
 
-  giveMeAnotherPrompt(): void {
-    this.prompt = this.prompts[this.service.getRandomArbitrary(0, this.prompts.length)];
+  giveMeAnotherPromptAndRandomizeColor(): void {
+    this.prompt = this.getRandomPrompt(this.props);
     this.randomizeColor();
   }
 
@@ -95,10 +119,14 @@ export class MainComponent implements OnInit {
   downloadImage(): void {
     // Feature Idea: Offer dropdown with different resolution options to download
     const props = window.screen.width > 1024
-      ? { width: 1280, height: 720 }
-      : { width: 1080, height: 1080 };
+      ? { width: 1080, height: 1080 } // insta
+      : { width: 1280, height: 720 }; // YT
     this.setupScreen(props);
     this.useHtml2Canvas(props);
     this.screen.nativeElement.removeAttribute('style');
+  }
+
+  private getRandomPrompt({prompts}: Props) {
+    return prompts[this.service.getRandomArbitrary(0, prompts.length)]
   }
 }

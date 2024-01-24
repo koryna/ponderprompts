@@ -1,15 +1,15 @@
 <div class="main">
-    <h1 class="hidden-hover">{{ title }} <sup>{{prompts.length}}</sup></h1>
+    <h1 class="hidden-hover">{{ title }} <sup>{{props.prompts.length}}</sup></h1>
     <div class="locale hidden-hover">
         <a (click)="downloadImage()">PNG</a> |
-        <a href="https://ponderprompts.{{url}}" target="_self">{{switch}}</a></div>
+        <a href="https://ponderprompts.{{props.url}}" target="_self">{{props.switch}}</a></div>
     <div class="container" #screen style="background-color: {{color}};">
         <div class="container-item">
-            <div class="prompt" [innerHTML]="prompt.content"></div>
+          <app-prompt [prompt]="prompt"></app-prompt>
         </div>
     </div>
     <div class="next-button hidden-hover">
-        <a (click)="giveMeAnotherPrompt()">{{reload}}</a>
+        <a (click)="giveMeAnotherPromptAndRandomizeColor()">{{props.reload}}</a>
     </div>
     <div class="color hidden-hover">{{color}} | <a href="https://korynaboehm.de">Blog</a></div>
 </div>
