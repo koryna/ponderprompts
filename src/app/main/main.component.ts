@@ -17,7 +17,7 @@ enum SupportedLanguages {
 interface Props {
   reload: string;
   switch: string;
-  url: string;
+  tld: string;
   prompts: Prompt[];
 }
 
@@ -33,17 +33,17 @@ export class MainComponent implements OnInit {
 
   private service = inject(CalculationsService);
 
-  lang = SupportedLanguages.de;
+  lang = SupportedLanguages.en;
   de_props: Props = {
     reload: 'Ich möchte lieber über etwas anderes nachdenken.',
     switch: 'In english please?',
-    url: 'de',
+    tld: 'com',
     prompts: de_prompts
   };
   en_props: Props = {
     reload: 'I\'d rather ponder something else.',
     switch: 'Auf Deutsch bitte?',
-    url: 'com',
+    tld: 'de',
     prompts: en_prompts
   };
   langDependentProps = {
