@@ -1,9 +1,9 @@
 <div class="main">
     <h1 class="hidden-hover">{{ title }} <sup>{{prompts.length}}</sup></h1>
     <div class="locale hidden-hover">
-        <a (click)="downloadImage()">PNG</a> | 
+        <a (click)="downloadImage()">PNG</a> |
         <a href="https://ponderprompts.{{url}}" target="_self">{{switch}}</a></div>
-    <div class="container" #screen style="background-color: {{color}};"> 
+    <div class="container" #screen style="background-color: {{color}};">
         <div class="container-item">
             <div class="prompt" [innerHTML]="prompt.content"></div>
         </div>
@@ -11,10 +11,10 @@
     <div class="next-button hidden-hover">
         <a (click)="giveMeAnotherPrompt()">{{reload}}</a>
     </div>
-    <div class="color hidden-hover">{{color}} | <a href="https://pondernotes.de">Blog</a> | <a href="https://pondersoul.de" target="_blank">YouTube</a></div>
+    <div class="color hidden-hover">{{color}} | <a href="https://korynaboehm.de">Blog</a></div>
 </div>
 
-<div id="download" style="display: none;">
-    <img #canvas>
+<div id="download">
+    <img #canvas alt="canvas">
     <a #downloadLink></a>
 </div>
