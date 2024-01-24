@@ -3,7 +3,7 @@
     <div class="locale hidden-hover">
         <a (click)="downloadImage()">PNG</a> |
         <a href="https://ponderprompts.{{props.tld}}" target="_self">{{props.switch}}</a></div>
-    <div class="container" #screen style="background-color: {{color}};">
+    <div class="container" #screen style="{{'background-color: '+color}};">
         <div class="container-item">
           <app-prompt [prompt]="prompt"></app-prompt>
         </div>
@@ -15,6 +15,6 @@
 </div>
 
 <div id="download">
-    <img #canvas alt="canvas">
+     <img #canvas alt="canvas" src="">
     <a #downloadLink></a>
 </div>
