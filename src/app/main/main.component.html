@@ -1,20 +1,20 @@
 <div class="main">
-    <h1 class="hidden-hover">{{ title }} <sup>{{props.prompts.length}}</sup></h1>
-    <div class="locale hidden-hover">
-        <a (click)="downloadImage()">PNG</a> |
-        <a href="https://ponderprompts.{{props.tld}}" target="_self">{{props.switch}}</a></div>
-    <div class="container" #screen style="{{'background-color: '+color}};">
-        <div class="container-item">
-          <app-prompt [prompt]="prompt"></app-prompt>
-        </div>
+  <h1 class="hidden-hover">{{ title }} <sup>{{ props.prompts.length }}</sup></h1>
+  <div class="locale hidden-hover">
+    <a (click)="downloadImage()">PNG</a> |
+    <a href="https://ponderprompts.{{props.tld}}" target="_self">{{ props.switch }}</a></div>
+  <div class="container" #screen style="{{'background-color: '+color}};">
+    <div class="container-item">
+      <app-prompt [prompt]="prompt"></app-prompt>
     </div>
-    <div class="next-button hidden-hover">
-        <a (click)="giveMeAnotherPromptAndRandomizeColor()">{{props.reload}}</a>
-    </div>
-    <div class="color hidden-hover">{{color}} | <a href="https://korynaboehm.de">Blog</a></div>
+  </div>
+  <div class="next-button hidden-hover">
+    <a (click)="giveMeAnotherPromptAndRandomizeColor()">{{ props.reload }}</a>
+  </div>
+  <div class="color hidden-hover">{{ color }} | <a href="https://korynaboehm.de">Blog</a></div>
 </div>
 
 <div id="download">
-     <img #canvas alt="canvas" src="">
-    <a #downloadLink></a>
+  <img #canvas alt="canvas" src="">
+  <a #downloadLink></a>
 </div>
