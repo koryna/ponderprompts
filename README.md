@@ -2,8 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.0.
 
-## Presets
-Run `git clone <repo-url>` to clone the repository to your local machine. Then run `npm install` to install all the dependencies.
+## Requirements
+You need to install Node.js, NPM, Git and Angular Cli, to be able to run the App locally:
+1. [Installing Node.js and NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+2. [Installing git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+3. [Installing Angular Cli](https://angular.io/cli)
+
+After that you can run `git clone https://github.com/koryna/ponderprompts.git` to clone the repository to your local machine. 
+Then run `npm install` to install all the dependencies. Now you can start the development server.
 
 ## Development server
 
